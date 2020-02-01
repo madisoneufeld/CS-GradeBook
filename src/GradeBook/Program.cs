@@ -22,7 +22,7 @@ namespace GradeBook
             result /= grades.Count;
 
             Console.WriteLine($"Total grades: {grades.Count}");
-            Console.WriteLine($"The average grade is {result}");
+            Console.WriteLine($"The average grade is {result:N1}");
 
             if(args.Length > 0)
             {
